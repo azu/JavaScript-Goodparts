@@ -10,7 +10,7 @@ var myObject = {
     }
 };
 
-myObject.increment(  );
+myObject.increment();
 document.writeln(myObject.value);    // 1
 
 myObject.increment(2);
