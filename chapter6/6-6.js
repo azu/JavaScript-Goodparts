@@ -15,7 +15,7 @@ Function.prototype.method = function(name, method) {
 // ネイティブなもの
 Array.method('reduce', function(f, value) {
     for (var i = 0,len = this.length; i < len; i++) {
-        var value = f(this[i], value);
+        value = f(this[i], value);
     }
     return value;
 });
@@ -33,5 +33,6 @@ data.total = function() {
     return this.reduce(add, 0);
 }
 
-total = data.total();
+total = data.total(); // 108
+
 

@@ -14,5 +14,4 @@ var is_array = function(value) {
             && typeof value.length === 'number'
             && typeof value === 'object'
             && !(value.propertyIsEnumerable('length'));
-        
 };
