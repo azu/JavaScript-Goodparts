@@ -21,7 +21,7 @@ var flight = {
 
 var middle = stooge["middle-name"] || "none";
 var status = flight.status || "unknown";
-stooge["middle-name"] = "‹UJerome";
+stooge["middle-name"] = "ï¿½UJerome";
 stooge.nickname = "curly";
 flight.equipment = {
     model:"boeiing 777"
